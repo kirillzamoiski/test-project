@@ -1,16 +1,15 @@
+   launch command:
 
+    docker-compose up
 
-build command:
+   Link for project: http://localhost:4200/
 
-docker-compose build
-
-launch command:
-
-docker-compose up
-
-
-Frontend Page: http://localhost:4200/
-
-User for update cities:
-username: admin
-password: admin
+   USERS:
+      
+      username: admin
+      password: admin
+      role: Admin
+      
+      username: user
+      password: user
+      role: User
