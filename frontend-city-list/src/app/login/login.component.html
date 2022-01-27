@@ -1,0 +1,13 @@
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<div class="wrapper fadeInDown">
+  <div id="formContent">
+    <form>
+      <input type="text" id="login" class="fadeIn first" name="username" [(ngModel)]="username" placeholder="username">
+      <input type="text" id="password" class="fadeIn second" name="password" [(ngModel)]="password" placeholder="password">
+      <input type="submit" class="fadeIn third"  value="Sign In" (click)="login()">
+    </form>
+  </div>
+</div>
